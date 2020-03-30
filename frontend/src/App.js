@@ -1,11 +1,15 @@
 import React from 'react';
-import Logon from './pages/Logon';
+
+import './global.css';
+
+import Routes from './routes';
 // JSX 
 
 // COMPOMENTE:
 function App() {
   return ( 
-  <Logon>BE THE HERO</Logon>
+ <Routes />
+  
   );
 }
 
