@@ -16,9 +16,9 @@ export default function Register() {
                 <h1>Cadastro</h1>
                 <p>Faça cadastro da sua ONG e encontre apoiadore da sua causa.</p>
                 
-                <Link className="back-link" to="/register">
+                <Link className="back-link" to="/">
                     <FiArrowLeft size={16} color="#E02041" />
-                    Não tenho cadastro
+                    Já tenho cadastro
                     </Link>
             </section>
                 <form>
